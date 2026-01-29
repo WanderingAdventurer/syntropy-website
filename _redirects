@@ -1,0 +1,12 @@
+# Netlify redirect rules for Syntropy website
+
+# Short URLs for app download
+/download    https://play.google.com/store/apps/details?id=com.syntropy.app    302
+/play        https://play.google.com/store/apps/details?id=com.syntropy.app    302
+/android     https://play.google.com/store/apps/details?id=com.syntropy.app    302
+
+# Future iOS redirect (placeholder)
+# /ios       https://apps.apple.com/app/syntropy/id000000000    302
+
+# SPA-style: serve index.html for unknown routes (optional)
+/*           /index.html    200
